@@ -13,6 +13,7 @@ body{
   min-height: 100vh;
   background: #f7f7f7;
   padding: 0 10px;
+  animation: bgchange 30s linear infinite;
 }
 .wrapper{
   background: #fff;
@@ -410,4 +411,27 @@ body{
   .chat-area form button{
     width: 45px;
   }
+}
+@keyframes bgchange {
+
+  0%,
+  100% {
+      background-image: url('../images/back_img2.jpg');
+  }
+
+  25% {
+      background-image: url('../images/back_img1.jpg');
+  }
+
+  50% {
+      background-image: url('../images/back_img3.jpg');
+  }
+
+  75% {
+      background-image: url('../images/back_img4.jpg');
+  }
+  /* 100% {
+      background-image: url('../image/background5.jpg');
+  } */
+
 }
