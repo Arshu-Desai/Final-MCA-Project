@@ -53,7 +53,7 @@
         </div>
 
         <form action="login.php" class="login-form" method="POST">
-            <h3>login as Farmer/ Buyer</h3>
+            <h3>login as Artist/ Buyer</h3>
             <input type="email" name="email" class="box" placeholder="enter your email" required>
             <input type="password" name="pass" class="box" placeholder="enter your password" required>
             <input type="submit" value="login now" class="btn" name="submit">

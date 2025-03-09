@@ -32,7 +32,7 @@
             <p><?php echo $row['status']; ?></p>
           </div>
         </div>
-        <span class="user_type"><?php echo $row['user_type']?></span>
+        <!-- <span class="user_type"><?php echo $row['user_type']?></span> -->
         <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Logout</a>
       </header>
       <div class="search">
