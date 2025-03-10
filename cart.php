@@ -76,7 +76,7 @@ if (isset($_POST['update_qty'])) {
                         <div class="name">
                             <?= $fetch_cart['name']; ?>
                         </div>
-                        <div class="price">₹<?= $fetch_cart['price']; ?>/kg
+                        <div class="price">₹<?= $fetch_cart['price']; ?>
                         </div>
                         <input type="hidden" name="cart_id" value="<?= $fetch_cart['id']; ?>">
                         <div class="flex-btn">
@@ -85,8 +85,7 @@ if (isset($_POST['update_qty'])) {
                         </div>
                         <div class="sub-total"> sub total :
                             <span>
-                                ₹<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/kg
-                            </span>
+                                ₹<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>
                         </div>
                     </form>
                     <?php
@@ -99,7 +98,7 @@ if (isset($_POST['update_qty'])) {
         </div>
 
         <div class="cart-total">
-            <p>grand total : <span>₹<?= $grand_total; ?>/kg</span></p>
+            <p>grand total : <span>₹<?= $grand_total; ?></span></p>
             <a href="shop.php" class="option-btn">continue shopping</a>
             <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>">delete all</a>
             <a href="checkout.php" class="btn <?= ($grand_total > 1) ? '' : 'disabled'; ?>">proceed to checkout</a>

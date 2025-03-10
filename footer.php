@@ -4,14 +4,14 @@
 
       <div class="box">
          <h3>quick links</h3>
-         <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
-         <a href="shop.php"> <i class="fas fa-angle-right"></i> shop</a>
+         <a href="home.php"> <i class="fas fa-angle-right"></i> Home</a>
+         <a href="shop.php"> <i class="fas fa-angle-right"></i> Shop</a>
       </div>
 
       <div class="box">
          <h3>extra links</h3>
-         <a href="cart.php"> <i class="fas fa-angle-right"></i> cart</a>
-         <a href="wishlist.php"> <i class="fas fa-angle-right"></i> wishlist</a>
+         <a href="cart.php"> <i class="fas fa-angle-right"></i> Cart</a>
+         <a href="wishlist.php"> <i class="fas fa-angle-right"></i> Wishlist</a>
       </div>
 
       <div class="box">
@@ -32,6 +32,6 @@
 
    </section>
 
-   <p class="credit"> &copy; copyright @ <?= date('Y'); ?> by <span> mr.arshad  </span> | all rights reserved! </p>
+   <p class="credit"> &copy; copyright @ <?= date('Y'); ?> by <span> mr.Arshad  </span> | all rights reserved! </p>
 
 </footer>

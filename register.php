@@ -94,18 +94,18 @@ if (isset($_POST['submit'])) {
 
       <form action="" enctype="multipart/form-data" method="POST">
          <h3>register now</h3>
-         <input type="text" name="name" class="box" placeholder="enter your name" required>
-         <input type="email" name="email" class="box" placeholder="enter your email" required>
-         <input type="text" name="mobile" class="box" placeholder="enter your mobile number" required>
-         <input type="password" name="pass" class="box" placeholder="enter your password" required>
-         <input type="password" name="cpass" class="box" placeholder="confirm your password" required>
+         <input type="text" name="name" class="box" placeholder="Enter your name" required>
+         <input type="email" name="email" class="box" placeholder="Enter your email" required>
+         <input type="text" name="mobile" class="box" placeholder="Enter your mobile number" required>
+         <input type="password" name="pass" class="box" placeholder="Enter your password" required>
+         <input type="password" name="cpass" class="box" placeholder="Confirm your password" required>
          <input type="file" name="image" class="box" required accept="image/jpg, image/jpeg, image/png">
          <div class="box-container">
          <label for="farmer" class="radiobtn"><input type="radio" name="user_type" value="Artist"id="farmer" required>Artist</label>
-         <label for="buyer" class="radiobtn"><input type="radio" name="user_type" value="buyer" id="buyer" required>Buyer</label>
+         <label for="buyer" class="radiobtn"><input type="radio" name="user_type" value="Buyer" id="buyer" required>Buyer</label>
          </div>
-         <input type="submit" value="register now" class="btn" name="submit">
-         <p>already have an account? <a href="index.php">login now</a></p>
+         <input type="submit" value="Register now" class="btn" name="submit">
+         <p>Already have an account? <a href="index.php">Login now</a></p>
       </form>
 
    </section>
