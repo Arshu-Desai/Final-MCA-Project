@@ -57,7 +57,7 @@ if (!isset($user_id )) {
                             <?= $fetch_users['email']; ?>
                         </span></p>
 
-                    <!-- <p> <span style=" color:<?php if ($fetch_users['user_type'] == 'farmer') {
+                    <!-- <p> <span style=" color:<?php if ($fetch_users['user_type'] == 'artist') {
                         echo 'orange';
                     }
                     ; ?>"><?= $fetch_users['user_type']; ?></span> -->

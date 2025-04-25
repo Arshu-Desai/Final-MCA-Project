@@ -101,7 +101,7 @@ if (isset($_POST['submit'])) {
          <input type="password" name="cpass" class="box" placeholder="confirm your password" required>
          <input type="file" name="image" class="box" required accept="image/jpg, image/jpeg, image/png">
          <div class="box-container">
-         <label for="farmer" class="radiobtn"><input type="radio" name="user_type" value="farmer"id="farmer" required>Artist</label>
+         <label for="farmer" class="radiobtn"><input type="radio" name="user_type" value="artist"id="artist" required>Artist</label>
          <label for="buyer" class="radiobtn"><input type="radio" name="user_type" value="buyer" id="buyer" required>Buyer</label>
          </div>
          <input type="submit" value="register now" class="btn" name="submit">
