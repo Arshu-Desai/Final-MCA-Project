@@ -41,7 +41,7 @@ if (!isset($user_id )) {
         <div class="box-container">
 
             <?php
-            $select_users = $conn->prepare("SELECT * FROM `users` WHERE `user_type`='farmer'");
+            $select_users = $conn->prepare("SELECT * FROM `users` WHERE `user_type`='artist'");
             $select_users->execute();
             while ($fetch_users = $select_users->fetch(PDO::FETCH_ASSOC)) {
                 ?>

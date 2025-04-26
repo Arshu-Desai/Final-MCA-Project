@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
 
    if($rowCount > 0){
 
-      if($row['user_type'] == 'farmer'){
+      if($row['user_type'] == 'artist'){
 
          $_SESSION['farmer_id'] = $row['id'];
          header('location:farmer_page.php');
