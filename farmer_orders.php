@@ -1,18 +1,11 @@
 <?php
-
 @include 'include/database.php';
-
 session_start();
-
 $farmer_id = $_SESSION['farmer_id'];
-
 if (!isset($farmer_id)) {
     header('location:index.php');
 }
-
-
 if (isset($_POST['update_order'])) {
-
     $order_id = $_POST['order_id'];
     $update_payment = $_POST['update_payment'];
     $update_payment = filter_var($update_payment, FILTER_SANITIZE_STRING);
@@ -20,23 +13,17 @@ if (isset($_POST['update_order'])) {
     $update_orders->execute([$update_payment, $order_id]);
     $message[] = 'payment has been updated!';
 
-}
-;
-
+};
 if (isset($_GET['delete'])) {
-
     $delete_id = $_GET['delete'];
     $delete_orders = $conn->prepare("DELETE FROM `orders` WHERE id = ?");
     $delete_orders->execute([$delete_id]);
     header('location:farmer_orders.php');
-
 }
-
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -119,9 +106,7 @@ if (isset($_GET['delete'])) {
                 echo '<p class="empty">no orders placed yet!</p>';
             }
             ?>
-
         </div>
-
     </section>
     <?php include 'farmer_footer.php'; ?>
     <script src="js/script2.js"></script>

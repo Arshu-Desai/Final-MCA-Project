@@ -13,7 +13,7 @@ if (!isset($farmer_id)) {
 
     <div class="flex">
 
-        <a href="farmer_page.php" class="logo"><span class="fas fa-seedling"></span> Art Gallary </a>
+        <a href="farmer_page.php" class="logo"><span class="fas fa-seedling"></span> Art Gallery </a>
 
         <nav class="navbar">
             <a href="farmer_page.php">Home</a>

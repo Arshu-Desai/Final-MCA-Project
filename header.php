@@ -12,7 +12,7 @@ if (!isset($user_id )) {
 
    <div class="flex">
 
-      <a href="home.php" class="logo"><span class="fas fa-seedling"></span> Art Gallary </a>
+      <a href="home.php" class="logo"><span class="fas fa-seedling"></span> Art Gallery </a>
 
       <nav class="navbar">
          <a href="home.php">Home</a>

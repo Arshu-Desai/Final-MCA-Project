@@ -69,10 +69,8 @@ if (isset($_GET['delete'])) {
    $delete_cart->execute([$delete_id]);
    header('location:farmer_products.php');
 
+}?>
 
-}
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
